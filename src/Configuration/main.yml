@@ -1,0 +1,14 @@
+title: Configuration Files
+actions:
+- !writeStatus: {status: 'Preparing system'}
+- !task: {path: 'Tasks/prepare.yml'}
+- !writeStatus: {status: 'Debloating the OS'}
+- !task: {path: 'Tasks/debloat.yml'}
+- !writeStatus: {status: 'Removing OneDrive'}
+- !task: {path: 'Tasks/onedrive-removal.yml'}
+- !writeStatus: {status: 'Removing Microsoft Edge'}
+- !task: {path: 'Tasks/edge-removal.yml'}
+- !writeStatus: {status: 'Changing wallpapers'}
+- !task: {path: 'Tasks/wallpapers.yml'}
+- !writeStatus: {status: 'Disabling updates'}
+- !task: {path: 'Tasks/updates.yml'}

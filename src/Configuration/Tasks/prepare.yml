@@ -1,0 +1,3 @@
+title: Preparing the system
+actions:
+- !run: {exe: 'prepare.bat', exeDir: true, weight: 5, runas: CurrentUserElevated}

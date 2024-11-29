@@ -1,0 +1,3 @@
+title: Removing OneDrive
+actions:
+- !run: {exe: 'remove-onedrive.bat', exeDir: true, weight: 5, runas: CurrentUserElevated}

@@ -1,0 +1,3 @@
+title: Preparing the system
+actions:
+- !run: {exe: 'debloat.bat', exeDir: true, weight: 10, runas: CurrentUserElevated}

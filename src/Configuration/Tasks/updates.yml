@@ -1,0 +1,3 @@
+title: Changing wallpapers
+actions:
+- !run: {exe: 'updates.bat', exeDir: true, weight: 10, runas: trustedInstaller}

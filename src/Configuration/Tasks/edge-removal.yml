@@ -1,0 +1,3 @@
+title: Removing Microsoft Edge
+actions:
+- !run: {exe: 'Remove-Edge.exe', exeDir: true, weight: 10, runas: CurrentUserElevated}
